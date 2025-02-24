@@ -2,7 +2,7 @@
 Journal
 1.	Week 1:
 
-  a.	We searched for more resources and found certain links of interest
+  a.	Together, we searched for more resources and found certain links of interest
   
      i.	https://www.sciencedirect.com/science/article/pii/S2214629622002468
   	
@@ -20,9 +20,9 @@ Journal
     
       viii.	Considering water and energy utilization, a study conducted at the University of Vermont using spatially-detailed records of data centers proposed strategic methods for locating data centers to minimize one or more environmental footprints. - https://vtechworks.lib.vt.edu/server/api/core/bitstreams/484c56d7-9557-4c71-ad47-84ab67a21bad/content
   
-  b.	We need to focus on species specific with carbon offset
+  b.	We realized that we needed need to focus on species specific with carbon offset
   
-  c.	Based on these resources, we have identified three datasets and tool which we plan to combine for the project
+  c.	Based on these resources, Chhavi identified three datasets and tool which we plan to combine for the project
   
     i.	GLOWCAD
     
@@ -30,4 +30,5 @@ Journal
     
     iii.	I-Tree Tools
   
-  d.  We have also created an initial draft of the abstract and uploaded in the repository.
+  d. Together, we evaluated the datasets to assess feasibility and whether they matched our overall problem.
+  e. Cate conducted background research on similar projects in urban planning/ML for a basic literature review, and drafted the abstract. Chhavi edited and added necessary technical details.
