@@ -40,6 +40,12 @@ WEEK 2:
 - Next, we spent some time brainstorming other ideas and challenges.
   - Chhavi explored and found other datasets related to data centers and carbon emissions.
   - Cate is qualifying them to articulate a suitable problem within our chosen field.
-- As of this writing, we are trying to pivot to focus more on data center carbon emissions. Potentially: assessing the environmental impact of data center expansion and climate resilient power grid optimization or carbon-water tradeoff optimization.
+- As of this writing, we are trying to pivot to focus more on data center carbon emissions. Potentially: assessing the environmental impact of data center expansion or climate resilient power grid optimization through carbon-water tradeoff optimization:
+
+    ALT IDEA 1 - REGIONAL IMPACT: Develop a model that assesses the environmental impact of adding new data centers to specific grid regions based on the existing power plant mix. Implementation Approach: Create a model that estimates both water and carbon impacts of data centers based on regional power mix. Develop a siting optimization algorithm that identifies locations minimizing environmental impact. Build forecasting models that account for projected changes in grid mix over time
+
+    ALT IDEA 2 - CARBON-WATER TRADEOFF POWER GRID OPTIMIZATION: Implementation Approach: Apply multi-objective optimization techniques to balance carbon and water impacts. Create a recommendation system for identifying optimal generation mixes by region. (Optional: Develop interactive visualizations that demonstrate tradeoffs under different scenarios)
+
+- Based on additional feedback from Alp, we will also strategize a way to combine the new datasets we found to see if there is a way to tackle the overall idea (natural-based systems and responses to data center emissions). So far, Chhavi had an idea to pursue carbon sequestration capacity based on drone imagery, using a dataset like Reforestree with bounding boxes and other metrics in the dataset to train regression model to tdentify tree type from drone image and estimate carbon capture (a limitation: not sure of more datasets present in this domain).
 
 This coming week, we will finalize how we want to pivot our focus – making sure we have the right data – and follow up with the teaching team by mid-week to make sure that our plan is feasible before continuing.
