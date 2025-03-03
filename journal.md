@@ -1,6 +1,7 @@
                                        Carbon Offset Landscapes for Data Centers
 Journal
-1.	Week 1:
+
+WEEK 1:
 
   a.	Together, we searched for more resources and found certain links of interest
   
@@ -32,3 +33,13 @@ Journal
   
   d. Together, we evaluated the datasets to assess feasibility and whether they matched our overall problem.
   e. Cate conducted background research on similar projects in urban planning/ML for a basic literature review, and drafted the abstract. Chhavi edited and added necessary technical details.
+
+WEEK 2:
+
+- Together, we met with Nicolas on Wednesday during his OH to qualify the feasibility of our problem and assess the datasets we found. During the discussion, we came to the conclusion that we'll need to edit our focus for several reasons: a) the current way that we have posed the problem does not seem to necessitate ML (i.e. why not algorithmically select for the best tree and only use that one tree for planting?) b) with the immense carbon emissions of a single data center, any offset from landscaping would be very minimal at best c) the datasets we found may not be rigorous enough for it.
+- Next, we spent some time brainstorming other ideas and challenges.
+  - Chhavi explored and found other datasets related to data centers and carbon emissions.
+  - Cate is qualifying them to articulate a suitable problem within our chosen field.
+- As of this writing, we are trying to pivot to focus more on data center carbon emissions. Potentially: assessing the environmental impact of data center expansion and climate resilient power grid optimization or carbon-water tradeoff optimization.
+
+This coming week, we will finalize how we want to pivot our focus – making sure we have the right data – and follow up with the teaching team by mid-week to make sure that our plan is feasible before continuing.
