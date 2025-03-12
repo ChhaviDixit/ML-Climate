@@ -46,6 +46,23 @@ WEEK 2:
 
     ALT IDEA 2 - CARBON-WATER TRADEOFF POWER GRID OPTIMIZATION: Implementation Approach: Apply multi-objective optimization techniques to balance carbon and water impacts. Create a recommendation system for identifying optimal generation mixes by region. (Optional: Develop interactive visualizations that demonstrate tradeoffs under different scenarios)
 
-- Based on additional feedback from Alp, we will also strategize a way to combine the new datasets we found to see if there is a way to tackle the overall idea (natural-based systems and responses to data center emissions). So far, Chhavi had an idea to pursue carbon sequestration capacity based on drone imagery, using a dataset like Reforestree with bounding boxes and other metrics in the dataset to train regression model to tdentify tree type from drone image and estimate carbon capture (a limitation: not sure of more datasets present in this domain).
+- Based on additional feedback from Alp, we will also strategize a way to combine the new datasets we found to see if there is a way to tackle the overall idea (natural-based systems and responses to data center emissions). So far, Chhavi had an idea to pursue carbon sequestration capacity based on drone imagery, using a dataset like Reforestree with bounding boxes and other metrics in the dataset to train regression model to identify tree type from drone image and estimate carbon capture (a limitation: not sure of more datasets present in this domain).
 
 This coming week, we will finalize how we want to pivot our focus – making sure we have the right data – and follow up with the teaching team by mid-week to make sure that our plan is feasible before continuing.
+
+WEEK 3:
+
+- Chhavi explored the possible project ideas with data integration of the carbon sequestration datasets, GlowCAD and ReForestree datasets. She dropped the i-Tree dataset since it had qualitative categorical values, whereas the other two have quantitative values for the same columns. A possible idea she came across was:
+  - Use reforestree imagery dataset to identify individual trees. Reforestree uses standard 50% carbon stock, instead leverage the species specific carbon stock values in GlowCAD. Three possible paths:
+    - For the species available in reforestree but not GlowCAD, use ML to estimate carbon stock.
+    - Use available carbon stock values to get better estimations on the ReForesTree dataset
+    - Combine both
+  - Potential problems:
+    - Reforestree limited to Ecuador with only 28 species, as compared to GlowCAD with 864 species and global scale
+    - Also reforestree dataset is highly imbalanced
+    - Overlap of species might be a problem
+  - Possible solution: Can look into other imagery dataset and combine them with GlowCAD instead
+
+We both discussed and concluded that we would prefer data center problems, since these combination of datasets will lead to more time in data aggregation and EDA than ML implementation. Because of mid-terms, we were not able to work much on it though.
+
+This week we plan to finalize the problem statement and start with dataset exploration.
