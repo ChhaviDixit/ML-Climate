@@ -63,6 +63,39 @@ WEEK 3:
     - Overlap of species might be a problem
   - Possible solution: Can look into other imagery dataset and combine them with GlowCAD instead
 
-We both discussed and concluded that we would prefer data center problems, since these combination of datasets will lead to more time in data aggregation and EDA than ML implementation. Because of mid-terms, we were not able to work much on it though.
+We both discussed and concluded that we would prefer data center problems, since these combination of datasets will lead to more time in data aggregation and EDA than ML implementation. Because of mid-terms and Cate getting sick with the flu, we were not able to work much on it though.
 
 This week we plan to finalize the problem statement and start with dataset exploration.
+
+WEEK 4: 
+
+Chhavi found a new dataset that would provide ample resources for a datacenter emissions problem. Cate accordingly applied insights from past research experience and qualified a new problem and objective, which is listed below. Cate also identified some additional parameters/datasets that we may incorporate if we end up needing additional information during training.
+
+Next week, pending feedback from Alp and the TAs, we'll get started on the code, update the abstract, and begin working on the background for the paper itself.
+
+NEW IDEA: Optimal Site Selection for Low-Impact Data Centers
+
+Objective: Model provides appropriate location highlighting optimal data center locations in the United States, and a method for ranking regions based on sustainability and cost-effectiveness.
+1. Minimize environmental impact (low CO2, water use + availability)
+2. Maximize cost-effectiveness (proximity to renewable energy, infrastructure)
+3. Ensuring reliability (proximity to fiber networks and low disaster risk (this potentially would include analyzing the level of extreme weather events in a given area))
+
+Data:
+Siddik, Md Abu Bakar; Shehabi, Arman; Marston, Landon (2021). The environmental footprint of data centers in the United States. University Libraries, Virginia Tech. Dataset. https://doi.org/10.7294/14504913.v2
+
+We've also identified some additional data sources that may supplement the analysis in the journal, but most likely will only need to use this one – the main obstacle is ensuring that the timeline and granularity of any other datasets would match. For water availability, the following is promising (https://waterdata.usgs.gov/nwis), although the data only extends to 2015. For renewable energy sources, Cate found the following –  (https://www.nrel.gov/research/data-tools, https://atlas.eia.gov/search?categories=%252Fcategories%252Frenewable%2520energy) – which could be used to further cross-reference how close the datacenters in the original dataset were to renewable energy sources.
+
+Rationale (updated abstract to come):
+As of this writing, there is no ML-based tool currently developed for optimal site selection considering environmental impact/sustainability for data centers. Similar site analysis and site selection tools are already used in real estate development (notably to identify economic patterns/trends, asset valuation, and risk management for property development).
+
+Data Application (may need some advice on technical feasibility):
+Train on existing dataset with the following variables – energy efficiency, carbon intensity with respect to water availability, infrastructure (power grid proximity and renewable energy share), spatial constraints (available land area per subbasin)
+1. Geo-reference all PCA + sub basin locations
+2. Feature engineering a sustainability score calculation (sum of carbon, water, renewable energy indicators), infrastructure accessibility score (distance to nearest power grid, fiber network, city)
+3. Potentially also use information on proximity to fiber optic network
+
+Remaining observations: 
+
+(Chhavi) GIS-integration can be considered as  an extended scope based on our results from the model training. Our first goal is predicting the place based on the input, which will be listed as probable places.
+
+(Cate) Additionally, based on my own knowledge and experience, I’d recommend some way to include weather data – specifically, avg. temperature ranges and frequency of extreme weather events. In my research, development has been driven towards areas that have 1) reliable access to infrastructure and 2) relatively stable weather to reduce disaster risk and mitigate cooling costs – hence the concentration of data centers in the mid-atlantic region, as opposed to the tornado-heavy midwest or hotter climates in southern states.
