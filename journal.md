@@ -99,3 +99,14 @@ Remaining observations:
 (Chhavi) GIS-integration can be considered as  an extended scope based on our results from the model training. Our first goal is predicting the place based on the input, which will be listed as probable places.
 
 (Cate) Additionally, based on my own knowledge and experience, I’d recommend some way to include weather data – specifically, avg. temperature ranges and frequency of extreme weather events. In my research, development has been driven towards areas that have 1) reliable access to infrastructure and 2) relatively stable weather to reduce disaster risk and mitigate cooling costs – hence the concentration of data centers in the mid-atlantic region, as opposed to the tornado-heavy midwest or hotter climates in southern states.
+
+
+Week 6:
+
+Cate and Chhavi made the problem statement more focused, and identified the columns to be used for the sustainability score calculation. 
+
+Cate shared the importance of some variables like PCA generation based, and which variables can be extracted using feature engineering. She also updated the abstract.
+
+Chhavi started work with the dataset using identified variables. She created dataframes for the calculation of carbon emissions and water intensity. 
+
+Next week, the plan is to complete EDA, feature engineering, and start with a basic ML model training for these features.
