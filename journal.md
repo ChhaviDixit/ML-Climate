@@ -110,3 +110,9 @@ Cate shared the importance of some variables like PCA generation based, and whic
 Chhavi started work with the dataset using identified variables. She created dataframes for the calculation of carbon emissions and water intensity. 
 
 Next week, the plan is to complete EDA, feature engineering, and start with a basic ML model training for these features.
+
+Week 7:
+
+Chhavi completed the EDA, feature engineering and ML model for the CO2 emissions. She also researched for a way to dynamically allocate coefficients to the factors for the sustainability score, settling with RL to define the coefficients based on different factors.
+
+Cate worked towards procuring a dataset with similar granularity as our dataset for fiber optics to be used in the proximity factor. She would be continuing to work on the water intensity ML this week.
