@@ -116,3 +116,21 @@ Week 7:
 Chhavi completed the EDA, feature engineering and ML model for the CO2 emissions. She also researched for a way to dynamically allocate coefficients to the factors for the sustainability score, settling with RL to define the coefficients based on different factors.
 
 Cate worked towards procuring a dataset with similar granularity as our dataset for fiber optics to be used in the proximity factor. She would be continuing to work on the water intensity ML this week.
+
+Week  8:
+
+Because of the issues in mapping both the datasets, the plan to include the fiber optic cable information was added to future scope.
+
+We continued work on the project, completing the whole pre-processing and feature engineering.
+
+Presented our progress in class.
+
+Week 9:
+
+Chhavi met Nicolas to discuss the direction that the project was taking. On his suggesiton, we also explored paths of imputing all rquired variables for the sustainability score, rather than only focusing on the optimization problem.
+
+Chhavi implemented the ML models for geo clusters, carbon emissions, and water intensity.
+
+Week 10:
+
+This was the final week. We completed the documentation for the project and also the dynamic weight part using the optimization problem setup.
