@@ -133,4 +133,6 @@ Chhavi implemented the ML models for geo clusters, carbon emissions, and water i
 
 Week 10:
 
-This was the final week. We completed the documentation for the project and also the dynamic weight part using the optimization problem setup.
+This was the final week. Chhavi completed the dynamic weight part using the optimization problem setup.
+
+Cate completed the final report for documentation of the project.
